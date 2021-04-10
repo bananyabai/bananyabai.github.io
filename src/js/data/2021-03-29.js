@@ -37,6 +37,11 @@ dataSet[dataSetVersion].options = [
     name: "Exclude animals",
     key: "animal",
     tooltip: "Check this to exclude pets and animals."
+  },
+  {
+    name: "Exclude DLC",
+    key: "dlc",
+    tooltip: "Check this to exclude characters from DLC cases."
   }
 ];
 
@@ -327,7 +332,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Maggy Byrde",
+    name: "Maggey Byrde",
     img: "ZIjD01d.png",
     opts: {
       game: ["JfA", "TaT"]
@@ -830,6 +835,14 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Taka",
+    img: "ijzxIBv.png",
+    opts: {
+      game: ["DD"],
+      animal: true
+    }
+  },
+  {
     name: "Gaspen Payne",
     img: "flVM3J4.png",
     opts: {
@@ -983,10 +996,19 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Metis Cykes",
+    img: "mcRBgvU.png",
+    opts: {
+      game: ["DD"],
+      victim: true
+    }
+  },
+  {
     name: "Sasha Buckler",
     img: "edyDytJ.png",
     opts: {
-      game: ["DD"]
+      game: ["DD"],
+      dlc: true
     }
   },
   {
@@ -994,7 +1016,8 @@ dataSet[dataSetVersion].characterData = [
     img: "SfisANa.png",
     opts: {
       game: ["DD"],
-      animal: true
+      animal: true,
+      dlc: true
     }
   },
   {
@@ -1002,35 +1025,40 @@ dataSet[dataSetVersion].characterData = [
     img: "Gkpqmqo.png",
     opts: {
       game: ["DD"],
-      victim: true
+      victim: true,
+      dlc: true
     }
   },
   {
     name: "Marlon Rimes",
     img: "v65tRSI.png",
     opts: {
-      game: ["DD"]
+      game: ["DD"],
+      dlc: true
     }
   },
   {
     name: "Herman Crab",
     img: "DzMUYLb.png",
     opts: {
-      game: ["DD"]
+      game: ["DD"],
+      dlc: true
     }
   },
   {
     name: "Norma DePlume",
     img: "5ILHrqj.png",
     opts: {
-      game: ["DD"]
+      game: ["DD"],
+      dlc: true
     }
   },
   {
     name: "Azura Summers",
     img: "bHqJrkz.png",
     opts: {
-      game: ["DD"]
+      game: ["DD"],
+      dlc: true
     }
   },
   {
@@ -1229,21 +1257,24 @@ dataSet[dataSetVersion].characterData = [
     name: "Ellen Wyatt",
     img: "L4ICxpg.png",
     opts: {
-      game: ["SoJ"]
+      game: ["SoJ"],
+      dlc: true
     }
   },
   {
     name: "Sorin Sprocket",
     img: "DCAYoPf.png",
     opts: {
-      game: ["SoJ"]
+      game: ["SoJ"],
+      dlc: true
     }
   },
   {
     name: "Pierce Nichody",
     img: "MKVRJu2.png",
     opts: {
-      game: ["SoJ"]
+      game: ["SoJ"],
+      dlc: true
     }
   },
   {
@@ -1251,14 +1282,16 @@ dataSet[dataSetVersion].characterData = [
     img: "8q6RU1o.png",
     opts: {
       game: ["SoJ"],
-      victim: true
+      victim: true,
+      dlc: true
     }
   },
   {
     name: "Selena Sprocket",
     img: "zylYvG8.png",
     opts: {
-      game: ["SoJ"]
+      game: ["SoJ"],
+      dlc: true
     }
   },
   {
@@ -1715,7 +1748,7 @@ dataSet[dataSetVersion].characterData = [
     img: "3ZvJjOs.png",
     opts: {
       game: ["DGS"],
-      role: ["pro"]
+      role: ["jud"]
     }
   },
   {
