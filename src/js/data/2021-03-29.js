@@ -3,7 +3,7 @@ dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
   {
-    name: "Filter by game",
+    name: "Filter by Game",
     key: "game",
     tooltip: "Check this to restrict to characters from certain games.",
     checked: false,
@@ -21,7 +21,7 @@ dataSet[dataSetVersion].options = [
     ]
   },
   {
-    name: "Filter by character role",
+    name: "Filter by Character role",
     key: "role",
     tooltip: "Check this to restrict to certain Ace Attorney character roles.",
     checked: false,
