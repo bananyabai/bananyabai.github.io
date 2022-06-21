@@ -1614,7 +1614,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Ryuunosuke Naruhodou",
+    name: "Ryunosuke Naruhodo",
     img: "peyeng0.png",
     opts: {
       game: ["DGS"],
@@ -1630,7 +1630,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Kazuma Asougi",
+    name: "Kazuma Asogi",
     img: "l1K7Czm.png",
     opts: {
       game: ["DGS"],
@@ -1638,7 +1638,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Sherlock Holmes",
+    name: "Herlock Sholmes",
     img: "ME5NJ80.png",
     opts: {
       game: ["DGS"],
@@ -1646,7 +1646,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Iris Watson",
+    name: "Iris Wilson",
     img: "IZcjbBY.png",
     opts: {
       game: ["DGS"],
@@ -1662,7 +1662,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Yuujin Mikotoba",
+    name: "Yujin Mikotoba",
     img: "PUZEuvY.png",
     opts: {
       game: ["DGS"],
@@ -1670,7 +1670,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "John H Watson",
+    name: "John H Wilson",
     img: "55sJUsM.png",
     opts: {
       game: ["DGS"],
@@ -1678,7 +1678,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Seishirou Jigoku",
+    name: "Seishiro Jigoku",
     img: "aQZ8RzZ.png",
     opts: {
       game: ["DGS"],
@@ -1702,49 +1702,49 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Taizou Uzukumaru",
+    name: "Iyesa Nosa",
     img: "VkCLQGA.png",
     opts: {
       game: ["DGS"]
     }
   },
   {
-    name: "Sanmon Sonohigurashi",
+    name: "Kyurio Korekuta",
     img: "ocinpqU.png",
     opts: {
       game: ["DGS"]
     }
   },
   {
-    name: "Jezail Brett",
+    name: "Jezaille Brett",
     img: "G7SGrTu.png",
     opts: {
       game: ["DGS"]
     }
   },
   {
-    name: "Nikomina Borschevic",
+    name: "Nikolina Pavlova",
     img: "oy4IqQh.png",
     opts: {
       game: ["DGS"]
     }
   },
   {
-    name: "Mitrov Stroganov",
+    name: "Bif Strogenov",
     img: "6LZ9PhO.png",
     opts: {
       game: ["DGS"]
     }
   },
   {
-    name: "Dmitri Demiglaski",
+    name: "Vilen Borshevik",
     img: "hmxKM5h.png",
     opts: {
       game: ["DGS"]
     }
   },
   {
-    name: "Hart Vortex",
+    name: "Mael Stronghart",
     img: "3ZvJjOs.png",
     opts: {
       game: ["DGS"],
@@ -1752,14 +1752,14 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Cosney Megundal",
+    name: "Magnus McGilded",
     img: "UWf2qqy.png",
     opts: {
       game: ["DGS"]
     }
   },
   {
-    name: "Mortar Milverton",
+    name: "Mason Milverton",
     img: "RGJQQks.png",
     opts: {
       game: ["DGS"],
@@ -1774,14 +1774,14 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Adam Redifast",
+    name: "Lay D. Furst",
     img: "BjDVdnZ.png",
     opts: {
       game: ["DGS"]
     }
   },
   {
-    name: "Oscar Fairplay",
+    name: "Bruce Fairplay",
     img: "xfjt3oy.png",
     opts: {
       game: ["DGS"]
@@ -1795,14 +1795,14 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Natsume Souseki",
+    name: "Soseki Natsume",
     img: "og9onMG.png",
     opts: {
       game: ["DGS"]
     }
   },
   {
-    name: "Viridian Green",
+    name: "Olive Green",
     img: "2rqeCD4.png",
     opts: {
       game: ["DGS"]
@@ -1823,14 +1823,14 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Patrick O’Malley",
+    name: "Roly Beate",
     img: "OofX0Oz.png",
     opts: {
       game: ["DGS"]
     }
   },
   {
-    name: "Rola O’Malley",
+    name: "Patricia Beate",
     img: "WCrKylv.png",
     opts: {
       game: ["DGS"]
@@ -1853,28 +1853,28 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Hatch Windibank",
+    name: "Pop Windibank",
     img: "AM7UL33.png",
     opts: {
       game: ["DGS"]
     }
   },
   {
-    name: "Egg Benedict",
+    name: "Eggert Benedict",
     img: "9OJAaRb.png",
     opts: {
       game: ["DGS"]
     }
   },
   {
-    name: "Nemmy Tinpillar",
+    name: "Nash Skulkin",
     img: "dMgLHhs.png",
     opts: {
       game: ["DGS"]
     }
   },
   {
-    name: "Tully Tinpillar",
+    name: "Ringo Skulkin",
     img: "ImlBzj5.png",
     opts: {
       game: ["DGS"]
@@ -1897,35 +1897,49 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Haori Murasame",
+    name: "Genshin Asogi",
+    img: "NQzQZQf.png",
+    opts: {
+      game: ["DGS2"],
+    }
+  },
+  {
+    name: "Klint van Zieks",
+    img: "OPvnDE8.png",
+    opts: {
+      game: ["DGS2"],
+    }
+  },
+  {
+    name: "Rei Membami",
     img: "hu8JgFV.png",
     opts: {
       game: ["DGS2"]
     }
   },
   {
-    name: "Heita Mamemomi",
+    name: "Raiten Menimemo",
     img: "6lbYY8m.png",
     opts: {
       game: ["DGS2"]
     }
   },
   {
-    name: "William Petenshy",
+    name: "William Shamspeare",
     img: "iuRazhm.png",
     opts: {
       game: ["DGS2"]
     }
   },
   {
-    name: "Decargo Mieterman",
+    name: "Adron B. Metermann",
     img: "SEfyeZI.png",
     opts: {
       game: ["DGS2"]
     }
   },
   {
-    name: "Mrs. Altamont",
+    name: "Quinby Altamont",
     img: "syODzvt.png",
     opts: {
       game: ["DGS2"]
@@ -1940,14 +1954,14 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Benjamin Dobinbough",
+    name: "Albert Harebrayne",
     img: "K5FkNcd.png",
     opts: {
       game: ["DGS2"]
     }
   },
   {
-    name: "Connette Rozaic",
+    name: "Esmeralda Tusspells",
     img: "90QeZ5A.png",
     opts: {
       game: ["DGS2"]
@@ -1961,7 +1975,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Elyder Meningen",
+    name: "Odie Asman",
     img: "oLYbJLs.png",
     opts: {
       game: ["DGS2"],
@@ -1969,7 +1983,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Rumba Marmatch",
+    name: "Balthazar Lune",
     img: "clxkn4g.png",
     opts: {
       game: ["DGS2"]
@@ -1990,28 +2004,28 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Maria Goulloyne",
+    name: "Maria Gorey",
     img: "tAgkM20.png",
     opts: {
       game: ["DGS2"]
     }
   },
   {
-    name: "Anna Mittlemont",
+    name: "Evie Vigil",
     img: "sHYoIE2.png",
     opts: {
       game: ["DGS2"]
     }
   },
   {
-    name: "Everyday Mittlemont",
+    name: "Daley Vigil",
     img: "gbZBf0s.png",
     opts: {
       game: ["DGS2"]
     }
   },
   {
-    name: "Harry Barricade",
+    name: "Barry Caidin",
     img: "KQ2OTRk.png",
     opts: {
       game: ["DGS2"]
@@ -2032,21 +2046,21 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Maurice de Quilco",
+    name: "Fabien de Rousseau",
     img: "KPxV4n2.png",
     opts: {
       game: ["DGS2"]
     }
   },
   {
-    name: "Marco di Gicho",
+    name: "Peppino de Rossi",
     img: "I1Gczp2.png",
     opts: {
       game: ["DGS2"]
     }
   },
   {
-    name: "Mapotov Stroganov",
+    name: "Tchikin Strogenov",
     img: "soMLBHH.png",
     opts: {
       game: ["DGS2"]
