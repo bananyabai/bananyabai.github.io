@@ -25,7 +25,7 @@ dataSet[dataSetVersion].options = [
     key: "role",
     tooltip: "Check this to restrict to certain Ace Attorney character roles.",
     checked: false,
-    sub: [ { name: "Attorney", key: "att" }, { name: "Prosecutor", key: "pro" }, { name: "Detective", key: "det" }, { name: "Assistant", key: "ass" }, { name: "Judge", key: "jud" }
+    sub: [ { name: "Attorney", key: "att" }, { name: "Prosecutor", key: "pro" }, { name: "Detective", key: "det" }, { name: "Assistant", key: "ass" }, { name: "Judge", key: "jud" }, { name: "Defendant", key: "def"}
     ]
   },
   {
@@ -50,7 +50,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Larry Butz",
     img: "jb3pdTT.png",
     opts: {
-      game: [ "AA", "TaT", "AAI", "AAI2", "SoJ" ]
+      game: [ "AA", "TaT", "AAI", "AAI2", "SoJ" ],
+      role: ["def"]
     }
   },
   {
@@ -82,7 +83,7 @@ dataSet[dataSetVersion].characterData = [
     img: "7SCxAHc.png",
     opts: {
       game: [ "AA", "JfA", "TaT", "AJ", "DD" , "SoJ"],
-      role: ["att"]
+      role: ["att", "def"]
     }
   },
   {
@@ -112,7 +113,7 @@ dataSet[dataSetVersion].characterData = [
     img: "Ih6TlWk.png",
     opts: {
       game: [ "AA", "JfA", "TaT", "AAI", "AAI2", "DD", "SoJ" ],
-      role: ["pro"]
+      role: ["pro", "def"]
     }
   },
   {
@@ -120,7 +121,7 @@ dataSet[dataSetVersion].characterData = [
     img: "v3IHTJ5.png",
     opts: {
       game: ["AA", "JfA", "TaT", "SoJ"],
-      role: ["ass"]
+      role: ["ass", "def"]
     }
   },
   {
@@ -177,7 +178,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Will Powers",
     img: "wH3I5fF.png",
     opts: {
-      game: ["AA", "JfA", "AAI2"]
+      game: ["AA", "JfA", "AAI2"],
+      role: ["def"]
     }
   },
   {
@@ -306,7 +308,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Lana Skye",
     img: "mcmEUeA.png",
     opts: {
-      game: ["AA"]
+      game: ["AA"],
+      role: ["def"]
     }
   },
   {
@@ -336,7 +339,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Maggey Byrde",
     img: "ZIjD01d.png",
     opts: {
-      game: ["JfA", "TaT"]
+      game: ["JfA", "TaT"],
+      role: ["def"]
     }
   },
   {
@@ -441,7 +445,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Max Galactica",
     img: "A4V2GmC.png",
     opts: {
-      game: ["JfA"]
+      game: ["JfA"],
+      role: ["def"]
     }
   },
   {
@@ -500,7 +505,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Matt Engarde",
     img: "4kkta0D.png",
     opts: {
-      game: ["JfA"]
+      game: ["JfA"],
+      role: ["def"]
     }
   },
   {
@@ -539,7 +545,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Ron DeLite",
     img: "K7jxpad.png",
     opts: {
-      game: ["TaT"]
+      game: ["TaT"],
+      role: ["def"]
     }
   },
   {
@@ -625,7 +632,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Terry Fawles",
     img: "Yt9ZKXr.png",
     opts: {
-      game: ["TaT"]
+      game: ["TaT"],
+      role: ["def"]
     }
   },
   {
@@ -640,7 +648,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Sister Iris",
     img: "cChg8Mv.png",
     opts: {
-      game: ["TaT"]
+      game: ["TaT"],
+      role: ["def"]
     }
   },
   {
@@ -670,7 +679,7 @@ dataSet[dataSetVersion].characterData = [
     img: "5jVL5lL.png",
     opts: {
       game: ["AJ", "DD", "SoJ"],
-      role: ["ass"]
+      role: ["ass", "def"]
     }
   },
   {
@@ -728,7 +737,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Wocky Kitaki",
     img: "nwV056R.png",
     opts: {
-      game: ["AJ"]
+      game: ["AJ"],
+      role: ["def"]
     }
   },
   {
@@ -786,7 +796,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Machi Tobaye",
     img: "ut9MKsn.png",
     opts: {
-      game: ["AJ"]
+      game: ["AJ"],
+      role: ["def"]
     }
   },
   {
@@ -808,7 +819,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Vera Misham",
     img: "G9Dtv1Z.png",
     opts: {
-      game: ["AJ"]
+      game: ["AJ"],
+      role: ["def"]
     }
   },
   {
@@ -824,7 +836,7 @@ dataSet[dataSetVersion].characterData = [
     img: "G51LSJ2.png",
     opts: {
       game: ["DD", "SoJ"],
-      role: ["att"]
+      role: ["att", "def"]
     }
   },
   {
@@ -855,7 +867,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Juniper Woods",
     img: "6ekKBXB.png",
     opts: {
-      game: ["DD"]
+      game: ["DD"],
+      role: ["def"]
     }
   },
   {
@@ -893,7 +906,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Damian Tenma",
     img: "bgBaduy.png",
     opts: {
-      game: ["DD"]
+      game: ["DD"],
+      role: ["def"]
     }
   },
   {
@@ -965,7 +979,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Solomon Starbuck",
     img: "gdQpzKb.png",
     opts: {
-      game: ["DD"]
+      game: ["DD"],
+      role: ["def"]
     }
   },
   {
@@ -1017,6 +1032,7 @@ dataSet[dataSetVersion].characterData = [
     img: "SfisANa.png",
     opts: {
       game: ["DD"],
+      role: ["def"],
       animal: true,
       dlc: true
     }
@@ -1082,7 +1098,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Ahlbi Ur’gaid",
     img: "6ugvura.png",
     opts: {
-      game: ["SoJ"]
+      game: ["SoJ"],
+      role: ["def"]
     }
   },
   {
@@ -1119,7 +1136,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Dhurke Sahdmadhi",
     img: "hmKwr9Y.png",
     opts: {
-      game: ["SoJ"]
+      game: ["SoJ"],
+      role: ["def"]
     }
   },
   {
@@ -1215,7 +1233,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Bucky Whet",
     img: "1C21FAz.png",
     opts: {
-      game: ["SoJ"]
+      game: ["SoJ"],
+      role: ["def"]
     }
   },
   {
@@ -1259,6 +1278,7 @@ dataSet[dataSetVersion].characterData = [
     img: "L4ICxpg.png",
     opts: {
       game: ["SoJ"],
+      role: ["def"],
       dlc: true
     }
   },
@@ -1619,7 +1639,7 @@ dataSet[dataSetVersion].characterData = [
     img: "peyeng0.png",
     opts: {
       game: ["DGS", "DGS2"],
-      role: ["att"]
+      role: ["att", "def"]
     }
   },
   {
@@ -1659,7 +1679,7 @@ dataSet[dataSetVersion].characterData = [
     img: "vkNZaVP.png",
     opts: {
       game: ["DGS", "DGS2"],
-      role: ["pro"]
+      role: ["pro", "def"]
     }
   },
   {
@@ -1756,7 +1776,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Magnus McGilded",
     img: "UWf2qqy.png",
     opts: {
-      game: ["DGS"]
+      game: ["DGS"],
+      role: ["def"]
     }
   },
   {
@@ -1793,14 +1814,15 @@ dataSet[dataSetVersion].characterData = [
     img: "nBmXgJI.png",
     opts: {
       game: ["DGS", "DGS2"],
-      role: ["det"]
+      role: ["det", "def"]
     }
   },
   {
     name: "Soseki Natsume",
     img: "og9onMG.png",
     opts: {
-      game: ["DGS", "DGS2"]
+      game: ["DGS", "DGS2"],
+      role: ["def"]
     }
   },
   {
@@ -1917,7 +1939,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Rei Membami",
     img: "hu8JgFV.png",
     opts: {
-      game: ["DGS2"]
+      game: ["DGS2"],
+      role: ["def"]
     }
   },
   {
@@ -1960,7 +1983,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Albert Harebrayne",
     img: "K5FkNcd.png",
     opts: {
-      game: ["DGS2"]
+      game: ["DGS2"],
+      role: ["def"]
     }
   },
   {
