@@ -13,7 +13,7 @@ dataSet[dataSetVersion].options = [
       { name: "Phoenix Wright: Ace Attorney – Trials and Tribulations", key: "TaT" },
       { name: "Apollo Justice: Ace Attorney", key: "AJ" },
       { name: "Ace Attorney Investigations: Miles Edgeworth", key: "AAI" },
-      { name: "Ace Attorney Investigations 2", tooltip: "05 - Kaikidan", key: "AAI2" },
+      { name: "Ace Attorney Investigations 2", key: "AAI2" },
       { name: "Phoenix Wright: Ace Attorney – Dual Destinies", key: "DD" },
       { name: "Phoenix Wright: Ace Attorney – Spirit of Justice", key: "SoJ" },
       { name: "The Great Ace Attorney: Adventures", key: "DGS" },
