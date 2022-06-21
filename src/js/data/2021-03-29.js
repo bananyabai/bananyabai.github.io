@@ -1898,14 +1898,14 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Genshin Asogi",
-    img: "NQzQZQf.png",
+    img: "DZqpwpX.png",
     opts: {
       game: ["DGS2"],
     }
   },
   {
     name: "Klint van Zieks",
-    img: "OPvnDE8.png",
+    img: "wVl27UE.png",
     opts: {
       game: ["DGS2"],
     }
