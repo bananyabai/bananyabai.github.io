@@ -1627,7 +1627,7 @@ dataSet[dataSetVersion].characterData = [
     img: "KJ9sAjI.png",
     opts: {
       game: ["DGS", "DGS2"],
-      role: ["ass"]
+      role: ["ass", "att"]
     }
   },
   {
@@ -1635,7 +1635,7 @@ dataSet[dataSetVersion].characterData = [
     img: "l1K7Czm.png",
     opts: {
       game: ["DGS", "DGS2"],
-      role: ["att"]
+      role: ["att", "pro"]
     }
   },
   {
@@ -1792,7 +1792,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Gina Lestrade",
     img: "nBmXgJI.png",
     opts: {
-      game: ["DGS", "DGS2"]
+      game: ["DGS", "DGS2"],
+      role: ["det"]
     }
   },
   {
@@ -1901,7 +1902,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Genshin Asogi",
     img: "DZqpwpX.png",
     opts: {
-      game: ["DGS2"],
+      game: ["DGS2"]
     }
   },
   {
@@ -1909,6 +1910,7 @@ dataSet[dataSetVersion].characterData = [
     img: "wVl27UE.png",
     opts: {
       game: ["DGS2"],
+      role: ["pro"]
     }
   },
   {
