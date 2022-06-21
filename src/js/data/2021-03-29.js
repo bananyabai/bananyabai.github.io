@@ -1814,7 +1814,7 @@ dataSet[dataSetVersion].characterData = [
     img: "nBmXgJI.png",
     opts: {
       game: ["DGS", "DGS2"],
-      role: ["det", "def"]
+      role: ["det"]
     }
   },
   {
