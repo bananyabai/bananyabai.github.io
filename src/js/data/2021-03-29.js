@@ -83,14 +83,14 @@ dataSet[dataSetVersion].characterData = [
     img: "7SCxAHc.png",
     opts: {
       game: [ "AA", "JfA", "TaT", "AJ", "DD" , "SoJ"],
-      role: ["att", "def"]
+      role: ["att"]
     }
   },
   {
     name: "Frank Sahwit",
     img: "jYtivNY.png",
     opts: {
-      game: ["AA"]
+      game: ["AA", "AAI2"]
     }
   },
   {
@@ -113,7 +113,7 @@ dataSet[dataSetVersion].characterData = [
     img: "Ih6TlWk.png",
     opts: {
       game: [ "AA", "JfA", "TaT", "AAI", "AAI2", "DD", "SoJ" ],
-      role: ["pro", "def"]
+      role: ["pro"]
     }
   },
   {
@@ -679,7 +679,7 @@ dataSet[dataSetVersion].characterData = [
     img: "5jVL5lL.png",
     opts: {
       game: ["AJ", "DD", "SoJ"],
-      role: ["ass", "def"]
+      role: ["ass"]
     }
   },
   {
@@ -836,7 +836,7 @@ dataSet[dataSetVersion].characterData = [
     img: "G51LSJ2.png",
     opts: {
       game: ["DD", "SoJ"],
-      role: ["att", "def"]
+      role: ["att"]
     }
   },
   {
@@ -1639,7 +1639,7 @@ dataSet[dataSetVersion].characterData = [
     img: "peyeng0.png",
     opts: {
       game: ["DGS", "DGS2"],
-      role: ["att", "def"]
+      role: ["att"]
     }
   },
   {
@@ -1679,7 +1679,7 @@ dataSet[dataSetVersion].characterData = [
     img: "vkNZaVP.png",
     opts: {
       game: ["DGS", "DGS2"],
-      role: ["pro", "def"]
+      role: ["pro"]
     }
   },
   {
