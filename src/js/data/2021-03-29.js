@@ -460,7 +460,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Money",
     img: "aHtA6kv.png",
     opts: {
-      game: ["JfA"],
+      game: ["JfA", "AAI2"],
       animal: true
     }
   },
