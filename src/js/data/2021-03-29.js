@@ -25,7 +25,7 @@ dataSet[dataSetVersion].options = [
     key: "role",
     tooltip: "Check this to restrict to certain Ace Attorney character roles.",
     checked: false,
-    sub: [ { name: "Attorney", key: "att" }, { name: "Prosecutor", key: "pro" }, { name: "Detective", key: "det" }, { name: "Assistant", key: "ass" }, { name: "Judge", key: "jud" }, { name: "Defendant", key: "def"}
+    sub: [ { name: "Defense attorney", key: "att" }, { name: "Prosecutor", key: "pro" }, { name: "Detective", key: "det" }, { name: "Assistant", key: "ass" }, { name: "Judge", key: "jud" }, { name: "Defendant", key: "def"}
     ]
   },
   {
