@@ -3,7 +3,7 @@ dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
   {
-    name: "Filter by Game",
+    name: "Filter by game",
     key: "game",
     tooltip: "Check this to restrict to characters from certain games.",
     checked: false,
@@ -21,7 +21,7 @@ dataSet[dataSetVersion].options = [
     ]
   },
   {
-    name: "Filter by Character role",
+    name: "Filter by character role",
     key: "role",
     tooltip: "Check this to restrict to certain Ace Attorney character roles.",
     checked: false,
@@ -31,7 +31,7 @@ dataSet[dataSetVersion].options = [
   {
     name: "Exclude victims",
     key: "victim",
-    tooltip: "Check this to exclude murder victims."
+    tooltip: "Check this to exclude characters who were never alive on-screen."
   },
   {
     name: "Exclude animals",
@@ -261,9 +261,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Gregory Edgeworth",
     img: "vkiyWgr.png",
     opts: {
-      game: ["AA", "AAI2"],
-      role: ["att"],
-      victim: true
+      game: ["AAI2"],
+      role: ["att"]
     }
   },
   {
@@ -694,7 +693,7 @@ dataSet[dataSetVersion].characterData = [
     img: "39sohNj.png",
     opts: {
       game: ["AJ"],
-      victim: true
+      role: ["def"]
     }
   },
   {
@@ -811,8 +810,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Drew Misham",
     img: "3ZOdTxK.png",
     opts: {
-      game: ["AJ"],
-      victim: true
+      game: ["AJ"]
     }
   },
   {
@@ -1647,7 +1645,7 @@ dataSet[dataSetVersion].characterData = [
     img: "KJ9sAjI.png",
     opts: {
       game: ["DGS", "DGS2"],
-      role: ["ass", "att"]
+      role: ["ass"]
     }
   },
   {
