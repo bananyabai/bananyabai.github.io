@@ -8,16 +8,16 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to restrict to characters from certain games.",
     checked: false,
     sub: [
-      { name: "Phoenix Wright: Ace Attorney", key: "AA" },
-      { name: "Phoenix Wright: Ace Attorney – Justice for All", key: "JfA" },
-      { name: "Phoenix Wright: Ace Attorney – Trials and Tribulations", key: "TaT" },
-      { name: "Apollo Justice: Ace Attorney", key: "AJ" },
-      { name: "Ace Attorney Investigations: Miles Edgeworth", key: "AAI" },
-      { name: "Ace Attorney Investigations 2", key: "AAI2" },
-      { name: "Phoenix Wright: Ace Attorney – Dual Destinies", key: "DD" },
-      { name: "Phoenix Wright: Ace Attorney – Spirit of Justice", key: "SoJ" },
-      { name: "The Great Ace Attorney: Adventures", key: "DGS" },
-      { name: "The Great Ace Attorney 2: Resolve", key: "DGS2" },
+      { name: "Phoenix Wright: Ace Attorney", key: "AA", checked: false},
+      { name: "Phoenix Wright: Ace Attorney – Justice for All", key: "JfA", checked: false},
+      { name: "Phoenix Wright: Ace Attorney – Trials and Tribulations", key: "TaT", checked: false},
+      { name: "Apollo Justice: Ace Attorney", key: "AJ", checked: false},
+      { name: "Ace Attorney Investigations: Miles Edgeworth", key: "AAI", checked: false},
+      { name: "Ace Attorney Investigations 2", key: "AAI2", checked: false},
+      { name: "Phoenix Wright: Ace Attorney – Dual Destinies", key: "DD", checked: false},
+      { name: "Phoenix Wright: Ace Attorney – Spirit of Justice", key: "SoJ", checked: false},
+      { name: "The Great Ace Attorney: Adventures", key: "DGS", checked: false},
+      { name: "The Great Ace Attorney 2: Resolve", key: "DGS2", checked: false},
     ]
   },
   {
@@ -25,7 +25,7 @@ dataSet[dataSetVersion].options = [
     key: "role",
     tooltip: "Check this to restrict to certain Ace Attorney character roles.",
     checked: false,
-    sub: [ { name: "Defense attorney", key: "att" }, { name: "Prosecutor", key: "pro" }, { name: "Detective", key: "det" }, { name: "Assistant", key: "ass" }, { name: "Judge", key: "jud" }, { name: "Defendant", key: "def"}
+    sub: [ { name: "Defense attorney", key: "att", checked: false}, { name: "Prosecutor", key: "pro", checked: false}, { name: "Detective", key: "det", checked: false}, { name: "Assistant", key: "ass", checked: false}, { name: "Judge", key: "jud", checked: false}, { name: "Defendant", key: "def", checked: false}
     ]
   },
   {
