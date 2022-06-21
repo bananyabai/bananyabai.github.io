@@ -121,7 +121,7 @@ dataSet[dataSetVersion].characterData = [
     img: "v3IHTJ5.png",
     opts: {
       game: ["AA", "JfA", "TaT", "SoJ"],
-      role: ["ass", "def"]
+      role: ["ass"]
     }
   },
   {
