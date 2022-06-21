@@ -16,8 +16,8 @@ dataSet[dataSetVersion].options = [
       { name: "Ace Attorney Investigations 2", tooltip: "05 - Kaikidan", key: "AAI2" },
       { name: "Phoenix Wright: Ace Attorney – Dual Destinies", key: "DD" },
       { name: "Phoenix Wright: Ace Attorney – Spirit of Justice", key: "SoJ" },
-      { name: "Dai Gyakuten Saiban: Naruhodo Ryunosuke no Boken", key: "DGS" },
-      { name: "Dai Gyakuten Saiban 2: Naruhodo Ryunosuke no Kakugo", key: "DGS2" },
+      { name: "The Great Ace Attorney: Adventures", key: "DGS" },
+      { name: "The Great Ace Attorney 2: Resolve", key: "DGS2" },
     ]
   },
   {
@@ -260,6 +260,7 @@ dataSet[dataSetVersion].characterData = [
     img: "vkiyWgr.png",
     opts: {
       game: ["AA", "AAI2"],
+      role: ["att"],
       victim: true
     }
   },
